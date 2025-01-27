@@ -6,5 +6,5 @@ The second adjustment is in the benchmarkPipeline function. This function is res
 
 The third adjustment creates unit tests in a separate file in mymain_test.go. Using Github Copilot, we create unit tests for each function. These verify the correctness of each function of the mymain.go code with the testing Go package. These tests ensure each function behaves as expected in isolation.
 
-Again, we see Go as an efficient way to take advantage of multicore processors with concurrency to run a task as desired. In MSDS 430, I completed a similar task of converting images in Python, but, after completing this task in Go, I would prefer to use Go and all of its features to manage pipelines with concurrency. 
+Again, we see Go as an efficient way to take advantage of multicore processors with concurrency to run a task as desired. I prefer to use Go for image processing over Python.
 
